@@ -1,0 +1,87 @@
+/*My Defaults*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+a{
+text-decoration:none ;
+}
+@font-face {
+    font-family: menim fontum;
+    src: url(/fonts/static/Montserrat-Medium.ttf);
+}
+
+
+
+/*End my defaults*/
+#header{
+height: 100px;
+background-color:#2C3E50 ;
+padding: 35px 0px;
+}
+.container{
+width: 80%;
+height: 100%;
+
+margin: 0 auto;
+}
+
+.logo,
+.navigation{
+display:inline-block ;
+
+}
+
+
+
+
+.logo{
+width: 49%;
+
+}
+.logo a{
+font-size: 25px;
+text-transform: uppercase;
+font-weight: bold;
+color: white;
+}
+
+.navigation{
+width: 50%;   
+
+vertical-align: top;
+}
+
+.navigation ul{
+text-align:right ;
+
+}
+
+#banner img{
+    width: 200px;
+}
+.navigation ul li{
+display: inline-block;
+}
+.navigation ul li a{
+font-size: 16px;
+text-transform: uppercase;
+font-weight: bold;
+margin: 0px 7px ;
+padding:0px 10px ;
+color: white;
+
+
+}
+
+.navigation ul li:last-child a{
+padding: right 0px;  ;
+margin-right: 0px;
+} 
+
+
+
+
+
